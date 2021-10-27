@@ -57,7 +57,7 @@ public class Program {
     public static int positiv(List<Integer> list) {
         int count = 0;
         for (int i = 0; i < list.size(); i++) {
-            if (list.get(i)  0) {
+            if (list.get(i) % 2 == 0) {
                 count++;
             }
         }
